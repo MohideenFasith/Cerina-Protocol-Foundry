@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-dotenv
+httpx
+# langgraph  # Replace with actual LangGraph package/name you use
+# mcp-python # Uncomment if using MCP SDK

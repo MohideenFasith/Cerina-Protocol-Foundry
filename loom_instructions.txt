@@ -1,0 +1,11 @@
+Loom Demo Checklist (max 5 minutes):
+
+1. React UI: Start a new intent (e.g., "Create exposure hierarchy for agoraphobia").
+   - Show agent timeline streaming agent events (Draftsmen produce outputs, Safety flags, Critic notes).
+   - When Supervisor halts, show draft and scratchpad (agent_notes).
+   - Edit draft inline and Approve. Show finalization.
+2. MCP Demo: From a separate client (or curl/mock), call the MCP tool to create a protocol.
+   - Show accepted/halted response and that the artifact appears in the React UI/back-end.
+3. Code: Open `backend/models.py` and `backend/checkpointer.py` and show where checkpoints are written.
+   - Show sqlite DB query or file (e.g., `sqlite3 cerina.db 'select * from checkpoints limit 5;'`).
+4. End: Mention safety gating and why human approval is required.
